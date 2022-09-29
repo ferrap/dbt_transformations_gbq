@@ -39,6 +39,25 @@ models:
 
 vars:
     fivetran_log_schema: paolo_fivetran_log
+
+    # Ad reporting connectors
+
+    linkedin_ads_schema: linkedin_ads 
+
+    pinterest_schema: pinterest_ads
+    
+    twitter_ads_schema: twitter_ads
+
+    snapchat_schema: snapchat_ads
+    
+    tiktok_ads_schema: paolo_tiktok_ads
+
+    ad_reporting__pinterest_ads_enabled: False # by default this is assumed to be True
+    ad_reporting__linkedin_ads_enabled: False # by default this is assumed to be True
+    ad_reporting__twitter_ads_enabled: False # by default this is assumed to be True
+    ad_reporting__snapchat_ads_enabled: False # by default this is assumed to be True
+    ad_reporting__tiktok_ads_enabled: False # by default this is assumed to be True
+    
     
     # Hubspot config
     hubspot_schema: paolo_hubspot
