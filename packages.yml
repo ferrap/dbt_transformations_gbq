@@ -5,3 +5,5 @@ packages:
     version: 0.6.1 
   - package: fivetran/ad_reporting
     version: 1.0.1
+  - package: fivetran/shopify
+    version: 0.6.0

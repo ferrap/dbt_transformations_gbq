@@ -40,6 +40,10 @@ models:
 vars:
     fivetran_log_schema: paolo_fivetran_log
 
+    # Shopify
+    shopify_schema: eu_shop__shopify
+
+
     # Ad reporting connectors
 
     linkedin_ads_schema: linkedin_ads 
