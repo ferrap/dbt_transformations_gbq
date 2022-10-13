@@ -61,6 +61,8 @@ vars:
     ad_reporting__google_ads_enabled: False # by default this is assumed to be True
     ad_reporting__facebook_ads_enabled: False # by default this is assumed to be True
     
+    #GitHub config
+    github_schema: github
     
     # Hubspot config
     hubspot_schema: paolo_hubspot
