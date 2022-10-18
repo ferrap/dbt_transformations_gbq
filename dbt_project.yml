@@ -42,7 +42,9 @@ vars:
 
     # Shopify
     shopify_schema: eu_shop__shopify
-
+    
+    # Klaviyo
+    klaviyo_schema: paolo_klaviyo
 
     # Ad reporting connectors
 
