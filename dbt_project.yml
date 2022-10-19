@@ -49,18 +49,27 @@ vars:
     # Ad reporting connectors
 
     google_ads_schema: paolo_google_ads
+    paolo_google_ads__using_account_stats: False
 
     facebook_ads_schema: facebook_ads
+    facebook_ads__using_basic_ad: false
 
-    linkedin_ads_schema: linkedin_ads 
+    linkedin_ads_schema: linkedin_ads
+    linkedin_ads__using_ad_analytics_by_campaign: false
+    linkedin_ads__using_campaign_history: false
 
     pinterest_schema: pinterest_ads
+    pinterest_ads__using_advertiser_report: False
     
     twitter_ads_schema: twitter_ads
 
     snapchat_schema: snapchat_ads
+    snapchat_ads__using_ad_hourly_report: false
     
     tiktok_ads_schema: paolo_tiktok_ads
+    tiktok_ads__using_ad_history: false
+    tiktok_ads__using_ad_report_hourly: false
+
 
     ad_reporting__apple_search_ads_enabled: False # by default this is assumed to be True
     ad_reporting__microsoft_ads_enabled: False # by default this is assumed to be True
