@@ -48,6 +48,10 @@ vars:
 
     # Ad reporting connectors
 
+    google_ads_schema: paolo_google_ads
+
+    facebook_ads_schema: facebook_ads
+
     linkedin_ads_schema: linkedin_ads 
 
     pinterest_schema: pinterest_ads
