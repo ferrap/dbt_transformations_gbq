@@ -1,0 +1,13 @@
+name: 'ad_reporting'
+version: '1.0.1'
+config-version: 2
+
+require-dbt-version: [">=1.0.0", "<2.0.0"]
+
+models:
+  ad_reporting:
+    +materialized: table 
+    +schema: ad_reporting 
+    intermediate:
+      +materialized: ephemeral
+      +schema: int_ad_reporting 
