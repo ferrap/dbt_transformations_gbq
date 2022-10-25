@@ -65,6 +65,9 @@ vars:
     ad_reporting__apple_search_ads_enabled: False # by default this is assumed to be True
     ad_reporting__microsoft_ads_enabled: False # by default this is assumed to be True
     
+    #NetSuite config
+    netsuite_schema: paolo_netsuite_suiteanalytics 
+    
     #GitHub config
     github_schema: github
     github__using_repo_team: false # by default this is assumed to be true
